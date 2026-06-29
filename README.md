@@ -29,6 +29,16 @@ pip install protobuf==3.20.3
 pip install torch==2.1.0
 pip install .
 ```
+### Step 2: Download the Unity Environment
+You do not need to install the full Unity editor to run this project. Instead, download the pre-compiled standalone environment matching your specific operating system from the links below:
+
+* **Linux:** [Download Link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
+* **Mac OSX:** [Download Link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
+* **Windows (32-bit):** [Download Link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
+* **Windows (64-bit):** [Download Link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
+
+**File Placement Instruction:** Unzip the downloaded archive file and place the resulting folder directly inside the root directory of this repository. 
+
 ## 5. Instructions
 To train the agents from scratch using the modular codebase, simply execute the main training script from your terminal:
 ```bash
